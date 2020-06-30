@@ -35,21 +35,7 @@ return {
 }
 },
 methods:{
-  LyHome(){
-    this.$router.push('/')
-  },
-  LyKecheng(){
-    this.$router.push('/kecheng')    
-  },
-  LyYueke(){
-    this.$router.push('/yueke')
-  },
-  LyLianxi(){
-    this.$router.push('/lianxi')
-  },
-  LyMe(){
-    this.$router.push('/me')
-  }
+
 
 },
 //生命周期 - 创建完成（访问当前this实例）
