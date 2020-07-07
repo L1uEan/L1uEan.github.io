@@ -172,7 +172,7 @@ export default {
 .pan-kinds>ul>li
 {
   width: 28%;
-  height: 1.2rem;
+  height: 1rem;
   background-color: #fff;
   border-radius: 0.1rem;
   display:flex;
