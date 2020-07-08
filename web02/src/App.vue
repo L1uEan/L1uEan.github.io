@@ -17,6 +17,6 @@ export default {
 }
 body{
   font-size: 0.14rem;
-  color: red;
+  /* color: red; */
 }
 </style>
