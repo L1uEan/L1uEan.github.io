@@ -7,7 +7,7 @@
         <p>已取消</p>
       </div>
       <div class="nr">
-        <img src="../assets/img/tu_09.png" alt="">
+        <!-- <img src="../assets/img/tu_09.png" alt=""> -->
         <button>登录/注册</button>
       </div>
   </div>
@@ -19,22 +19,22 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .yk{
   width: 100%;
   height: 100%;
     div{
       width:100%;
-      height:90px;
+      height:0.9rem;
       background:white;
-      font-size:40px;
+      font-size:.0.19rem;
       display: flex;
       justify-content: center;
       align-items: center;
       }
     .yk1{
       width:100%;
-      height:90px;
+      height:0.16rem;
       background:white;
       display:flex;
       align-items: center;
@@ -63,7 +63,7 @@ export default {
 p{
   margin: 0;
   padding: 0;
-  font-size:30px;
+  font-size:0.16rem;
   width:33.3%;
   height:100%;
   display:flex;
