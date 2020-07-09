@@ -13,7 +13,7 @@
           <li
             v-for="(item, index) in kindList"
             :key="index"
-          >
+            @click="onClcikTo(index)">
             <span>
               <img :src="item.image" />
             </span>
@@ -104,7 +104,16 @@ export default {
       teacherList:[],
       goodList:[],
       recommendList:[],
-      superList:[]
+      superList:[],
+      selectIndex:0
+    }
+  },
+  methods: {
+    onClcikTo(index){
+      this.selectIndex = index
+      if(index == 0){
+        this.$router.push("/home/kecheng")
+      }
     }
   },
 

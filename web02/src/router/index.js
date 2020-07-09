@@ -48,6 +48,7 @@ export default new Router({
           component:YueKe
         },
       ]
-    }
+    },
+    
   ]
 })
